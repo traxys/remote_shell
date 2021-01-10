@@ -7,8 +7,8 @@ shift
 
 args=""
 first="$1"
-shift
 if [ -n "$first" ]; then
+	shift
 	args="\"$first\""
 	while true; do
 		a="$1"
